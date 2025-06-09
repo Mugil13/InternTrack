@@ -1,0 +1,18 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; /* Adjust column sizes automatically */
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap; /* Prevents text from breaking into multiple lines */
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling if necessary */
+  }
+  

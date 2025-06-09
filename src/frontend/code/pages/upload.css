@@ -1,0 +1,82 @@
+/* Upload container styling */
+.upload-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Heading style */
+h2 {
+  color: #333;
+}
+
+/* File input styling */
+.upload-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 5px;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.upload-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Hide default file input */
+.file-input {
+  display: none;
+}
+
+/* Display selected file name */
+.file-name {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Extracted data styling */
+.extracted-data {
+  margin-top: 20px;
+  text-align: left;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+/* Upload to Drive button */
+.extracted-data button {
+  display: block;
+  margin: 10px auto;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.extracted-data button:hover {
+  background-color: #218838;
+}

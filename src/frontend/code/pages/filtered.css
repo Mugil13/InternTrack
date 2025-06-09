@@ -1,0 +1,20 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;  
+    word-break: break-word; 
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Fallback */
+    max-width: 150px; /* Optional: prevent overly wide cells */
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  

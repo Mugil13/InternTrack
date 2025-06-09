@@ -1,0 +1,31 @@
+.Navbar {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;  /* Ensure full width without overflow */
+  position: sticky;
+  top: 0;
+  height: 80px;
+  box-sizing: border-box; /* Prevents padding from affecting width */
+  flex-wrap: wrap; /* Allows items to wrap instead of causing overflow */
+  overflow: hidden; /* Ensures navbar itself doesn’t create overflow */
+}
+  .logoimg {
+    height: 30px;
+  }
+  
+  .Navtext {
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .NavtextSection {
+    margin-right: 10px;
+  }
+  
+  .home-content {
+    margin-top: 60px; /* This ensures the content starts below the navbar */
+  }
+  

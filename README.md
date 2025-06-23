@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# InternTrack
+InternTrack is a full-stack web application that provides internship management of students for academic institutions. It contains features for uploading and verifying internship details and also has a faculty portal for reviewing and managing all the internship records of studennts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- Login & role-based access (Student / Faculty)
+- Upload internship offer letters (PDF/Image)
+- Automated text extraction using OCR
+- Internship tracking via Google Sheets
+- Verified document storage on Google Drive
+- Input validation and protection from injection attacks
 
-## Available Scripts
+## Tech Stack & Tools
+<div align="left"> 
+  <img src="https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/State-Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/API-Express.js-000000?logo=express&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/OCR-Flask-000000?logo=flask&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/OCR-Tesseract-5D88C1?logo=python&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/API-Google%20Sheets-34A853?logo=google&logoColor=white&style=for-the-badge" /> 
+  <img src="https://img.shields.io/badge/Storage-Google%20Drive-4285F4?logo=google-drive&logoColor=white&style=for-the-badge" />
+</div>
 
-In the project directory, you can run:
+## Usage Instructions
+git clone https://github.com/Mugil13/InternTrack.git
 
-### `npm start`
+## Frontend
+```
+cd frontend
+npm install
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Backend
+```
+cd ../backend
+npm install
+node backend.js
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## OCR Server
+```
+cd ../ocr
+pip install -r requirements.txt
+python app.py
+```
 
-### `npm test`
+## NOTE
+```
+Screenshots and code snippets are available in the IP_Mini_Project_Report_Final.pdf inside this repo.
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
